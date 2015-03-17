@@ -45,7 +45,7 @@ public class HomepageController {
 		  model.addAttribute("firstname", newUser.getFirstname());
 	      model.addAttribute("lastname", newUser.getLastname());
 	      model.addAttribute("email", newUser.getEmail());
-	      
+	      //test git
 	      return "afterAddUser";
 	   }
 	

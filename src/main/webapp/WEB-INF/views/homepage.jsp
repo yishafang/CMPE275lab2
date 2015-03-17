@@ -19,7 +19,7 @@
 		</c:forEach>
 		
 		<h3>
-			<a href="update">Update Info</a>
+			<a href="update">Update Info</a> 
 		</h3>
 	</center>
 </body>
