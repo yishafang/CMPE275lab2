@@ -9,12 +9,12 @@ http://www.springframework.org/schema/context
 http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
 	<context:component-scan base-package="controller" />
-	
-	<bean id="homepageManager" class="service.HomepageManager" />
+
+	<!-- <bean id="homepageManager" class="service.HomepageManager" />
 	
 	<bean name="/homepage" class="controller.UserController" >
 		<property name="homepageManager" ref="homepageManager"/>
-	</bean>
+	</bean> -->
 		
 	<!-- <bean name="/homepage" class="controller.HomepageController" >
 	</bean> -->
